@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empower 360</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: skyblue;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            width: 50px;
+            height: 50px;
+            background-image: url('user-logo.png');
+            background-size: cover;
+        }
+        nav {
+            display: flex;
+        }
+        nav a {
+            text-decoration: none;
+            color: black;
+            margin: 0 10px;
+        }
+        .search-bar {
+            display: flex;
+            width: 50%;
+        }
+        .search-bar input[type="text"] {
+            width: 50%;
+            padding: 10px;
+        }
+        .search-bar input[type="submit"] {
+            background-color: grey;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        .finance-related-policies {
+            text-align: center;
+            padding: 20px;
+        }
+        .view-all-button {
+            background-color: grey;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        .images-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .image {
+            width: 323px;
+            height: 403px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo"></div>
+        <nav>
+            <a href="#">POLICIES</a>
+            <a href="#">COMMUNITY</a>
+            <a href="#">TO FILL</a>
+            <a href="#">FAQs</a>
+            <a href="#">ABOUT US</a>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Search Policies">
+            <input type="submit" value="Search">
+        </div>
+    </header>
+
+    <nav style="background-color: skyblue;">
+        <a href="#">ELIGIBILITY</a>
+        <a href="#">SECTOR</a>
+        <a href="#">SPECIALIZATION</a>
+        <a href="#">STATE</a>
+        <a href="#">CENTRAL</a>
+        <a href="#">ASSISTANCE</a>
+    </nav>
+
+    <div class="finance-related-policies">
+        <h1>Finance Related Policies</h1>
+        <button class="view-all-button">View All</button>
+    </div>
+
+    <div class="images-container">
+        <div class="image"><img src="image1.jpg" alt="Image 1"></div>
+        <div class="image"><img src="image2.jpg" alt="Image 2"></div>
+        <div class="image"><img src="image3.jpg" alt="Image 3"></div>
+        <div class="image"><img src="image4.jpg" alt="Image 4"></div>
+    </div>
+</body>
+</html>
